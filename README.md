@@ -1,6 +1,7 @@
 # jazz_chords
 A Randomized Jazz Chord Generator
 
+```
 % python3 jazz_chords.py -h
 usage: jazz_chords.py [-h] [-k KEY] [-s STYLE] [-b BARS] [-t TRITONE] [-n] [-g]
 
@@ -24,4 +25,4 @@ examples:
   jazz_chords.py -k F  -s jazz_blues -b 12 # F blues, 12 bars
   jazz_chords.py -k C  -s ii_V_I  --guitar # ii-V-I with chord diagrams
   jazz_chords.py -k D  -s minor_ii_V_i -g  # minor ii-V-i with diagrams
-  
+```
